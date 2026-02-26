@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Compiled extension
+*.so
+
+# Virtual environments
+.venv
+
+# uv
+uv.lock
+.python-version
+
+# Claude
+CLAUDE.md
+
+# Test data
+*.pdb
