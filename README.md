@@ -31,3 +31,9 @@ Low-level interface (takes Nx3 and Mx3 Cα coordinate arrays directly):
 import _tmalign
 result = _tmalign.tmalign(xa, ya, seqx, seqy, norm_length)
 ```
+
+## Credits 
+If you use the package for research, you should cite the original TM-score papers:
+
+Y. Zhang, J. Skolnick, Scoring function for automated assessment of protein structure template quality, Proteins, 57: 702-710 (2004).
+J. Xu, Y. Zhang, How significant is a protein structure similarity with TM-score=0.5? Bioinformatics, 26, 889-895 (2010).
